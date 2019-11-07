@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ASAI | Asesorias y Soluciones Ambientales Integrales </title>
+     <link rel="shortcut icon" href="img/circulo.png" type="image/x-icon">
+     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styless.css">
+
+
+
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        console.log(`%c
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+.♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦••♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•.
+.♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦Mr GTS♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•.
+.♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦Oscar Palacios♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•♦•.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .`,"color:#32CCBC; background:black; font-family: monospace");
+    </script>
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        .container{
+            height: 500px;
+            background: rgb(142, 0, 253)   ;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content{
+            font-family: Arial;
+            text-align: center;
+            font-size: 2em;
+            color: rgba(255, 255, 255, .8);
+        }
+
+        .waves{
+            /*left: 0;
+            right: 0;
+            bottom: 0;
+            height: 200px;*/
+            position: absolute;
+            bottom: -135px;
+            height: 527px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .wave{
+            /*width: 200px;*/
+            /*width: 100%;
+            height: 200px;*/
+            /*border-radius: 50%;*/
+            /*background: rgba(0, 0, 0, .3);*/
+            position: absolute;
+            width: 2402px;
+            height: 427px;
+            left: -180px;
+            bottom: 0;
+            background: url(img/waves.png) center bottom no-repeat;
+            animation: 5s wave ease-in-out infinite alternate;
+        }
+
+        .wave.a{
+            background-position: 0 -854px;
+        }
+
+        .wave.b{
+            animation-delay: 6s;
+            background-position: 0 -427px;
+        }
+
+        .wave.c{
+            animation-delay: 1.2s;
+            background-position: 0 0;
+        }
+
+        /*.container{
+            position: absolute;
+        }
+    */
+        @keyframes wave{
+            0%{
+                transform: translate(0, 0);
+            }
+            50%{
+                transform: translate(-80px, 30px);
+            }
+            100%{
+                transform: translateX(160px) translateY(-60px);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+  <!--  <header>
+<nav>
+        <a href="#">¿Quiénes somos?</a>
+        <a href="#">Misión</a>
+        <a href="#">Visión</a>
+        <a href="#">Líneas de acción</a>
+        <a href="#">Contacto</a>
+    </nav>
+    </header>-->
+
+
+    <div class="container">
+
+        <div class="content">
+            <img src="img/logocompleto.png" alt="" class="imagen-about-us">
+        </div>
+
+        <div class="waves">
+            <div class="wave circulo a"></div>
+            <div class="wave circulo b"></div>
+            <div class="wave circulo c"></div>
+        </div>
+
+        <!-- <div class="wav" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                                                                        style="height: 70%; width: 100%;">
+             <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                   style="stroke: none; fill: #ffffff;"></path>
+         </svg></div>-->
+
+     </div>
+
+     <!-- <section class="textos-header">
+
+
+          <h1>ASAI S.A.S</h1>
+          <h2>Asesorias y Soluciones Ambientales Integrales</h2>
+
+       </section>-->
+    <!---->
+    <main>
+
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">¿Quiénes somos?</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/undraw_dream_world_cin1.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3> <span>♦</span><B>A.S.A.I. .SAS, ASESORIAS Y SOLUCIONES   AMBIENTALES INTEGRALES</B></h3>
+                    <p> Es una empresa comprometida con el medio ambiente y su biodiversidad, brindando
+                        servicios profesionales de alta calidad, en donde se busca diagnosticar, formular,
+                        ejecutar, evaluar alternativas y soluciones ambientales integrales enmarcadas en
+                        el Plan Nacional de Adaptación al Cambio Climático <b>(PNACC)</b> en Colombia, con el fin
+                        de minimizar la vulnerabilidad, prevenir y/o mitigar los riesgos asociados a la emergencia
+                        ambiental actual, mitigando problemas socioeconómicos, alcanzando una inversión responsable,
+                        contribuyendo a un desarrollo sostenible, maximizando beneficios específicos, y mejorando
+                        notoriamente nuestra calidad de vida.</p>
+
+                </div>
+            </div>
+        </section>
+        <main>
+            <div class="clip">
+                <div class="mountain-4"></div>
+                <div class="mountain-3"></div>
+                <div class="cloud cloud1"></div>
+                <div class="mountain-1"></div>
+                <div class="mountain-2"></div>
+                <div class="tree tree2"></div>
+                <div class="tree tree1"></div>
+                <div class="tree tree0"></div>
+                <div class="cloud"></div>
+                <div class="tree tree3"></div>
+                <div class="tree tree4"></div>
+                <div class="tree tree5"></div>
+                <div class="close-2"></div>
+                <div class="close-1"></div>
+                <div class="dry-container">
+                    <div class="dry"></div>
+                    <div class="dry dry1"></div>
+                    <div class="dry dry2"></div>
+                    <div class="dry dry11"></div>
+                    <div class="dry dry22"></div>
+                </div>
+                <div class="dry-container dry0">
+                    <div class="dry"></div>
+                    <div class="dry dry1"></div>
+                    <div class="dry dry2"></div>
+                    <div class="dry dry11"></div>
+                    <div class="dry dry22"></div>
+                </div>
+            </div>
+            <section class="contenedor sobre-nosotros">
+                <h2 class="titulo"> Misión y Visión</h2>
+                <div class="contenedor-sobre-nosotros">
+                   <img src="img/undraw_destinations_fpv7.svg" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3><span>♦</span>Misión </h3>
+                        <p>A.S.A.I. S.A.S, <b>ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES S.A.S. </b>tiene como misión
+                            principal brindar servicios integrales y Procesos de transformación cultural para la
+                            adaptación del cambio climático, asesorías especializadas, desarrollo de proyectos, herramientas
+                            ambientales integrales para su hogar, empresa, entidad educativa y comunidad en general,
+                            que permitan disminuir el impacto  ambiental y económico causado por la emergencia ambiental de
+                            nuestro planeta, aportando a un desarrollo humano sostenible.</p>
+                        <h3><span>♦</span>Visión</h3>
+                        <p>Para el año 2030 <b>A.S.A.I. S.A.S</b>, <b>ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES S.A.S.</b> será
+                            la empresa pionera en Colombia en desarrollar estrategias y alternativas brindando  soluciones para
+                            la mitigación del impacto ambiental, económico y social ocasionado por calentamiento global y el cambio
+                            climático en Colombia,  de acuerdo a lo establecido en el Plan nacional de adaptación al cambio climático <b>PNACC</b>.</p>
+                    </div>
+                </div>
+            </section>
+
+     <!--   <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Líneas de acción</h2> <br> <br> <br> <br> <br>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/suzanne-d-williams-VMKBFR6r_jg-unsplash.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/history.png" alt="">
+                            <p> Transformación Cultural</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/neonbrand-zFSo6bnZJTw-unsplash.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/education.png" alt="">
+                            <p>Educación Ambiental</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/you-x-ventures-Oalh2MojUuk-unsplash.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/meeting.png" alt="">
+                            <p>Asesorias</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/lamp-2663053_1280.jpg " alt="">
+                        <div class="hover-galeria">
+                            <img src="img/plug.png" alt="">
+                            <p>Ahorro  De Consumo Eléctrico</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/solar-energy.png" alt="">
+                            <p>Energías limpias </p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/apple-1873078_1280.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/harvest.png" alt="">
+                            <p>Agricultura orgánica, <br>sostenible y urbana</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/vertical-farming.png" alt="">
+                            <p>Jardines verticales</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/traffic-332857_1280.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/transportation.png" alt="">
+                            <p>Movilidad sostenible</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/background2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Productos ecológicos </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+                <style>
+                    .st0{fill:#5AC0ED;} .st1{fill:#60CEF4;} .st2{fill:#FFFFFF;} .st3{fill:#D8CABA;} .st4{fill:#73DCF4;} .st5{fill:#EDE5DD;} .st6{fill:#F9F5F2;} .st7{fill:#878787;} .st8{fill:#99877A;} .st9{fill:#A5645D;} .st10{fill:#C9A191;} .st11{fill:#D8B298;} .st12{fill:#916256;} .st13{fill:#28201E;} .st14{fill:#997156;} .st15{fill:#5B754B;} .st16{fill:#7D8767;} .st17{fill:#423730;} .st18{fill:#775F4F;} .st19{fill:#B2A8A1;} .st20{fill:#717C5B;} .st21{fill:#777069;} .st22{fill:#7D9150;} .st23{fill:#A39995;} .st24{fill:#5B2C25;} .st25{fill:#63453B;} .st26{fill:#7A6054;} .st27{fill:#513B36;} .st28{fill:#BDD8DB;} .st29{fill:#EBFBFC;} .st30{fill:#60534A;} .st31{fill:#BAB1AA;}
+                </style>
+                <path id="sky1" class="st0" d="M471 237c0 119.846-97.154 217-217 217S37 356.846 37 237c0-50.17 17.025-96.362 45.613-133.116C122.317 52.84 184.323 20 254 20c69.38 0 131.157 32.56 170.88 83.235C453.774 140.095 471 186.535 471 237z"/>
+                <path id="sky2" class="st1" d="M254 363l-176-1s-41-46-42-127c-2-99 71-157 71-157s-7 115 149 115S400 77 400 77s74 66 71 160c-2.68 83.963-43 130-43 130l-174-4"/>
+                <path id="sky3" class="st4" d="M46 169s71 151 205 151 210-150 210-150c32 104-24.667 191.667-24.667 191.667S270 434 78 361.667C9 267 46 169 46 169z"/>
+                <path id="bigcloud" class="st2" d="M421 196C460 87 254 40 246 76c-3 31 12 39 24 63 25 69-78 18-111 1-13-10-56 33-52 42 7 17 103.636 3.384 188 9 66.754 4.443 123.35 23.553 126 5z"/>
+                <path id="bigcloudshadow1" class="st3" d="M246 76c-10 36 138 88 138 88s-58 22 30 28c-28.017 4.123-121.146-3.87-140-22 9-31-44-68-28-94z"/>
+                <path id="bigcloudshadow2" class="st3" d="M145 140.333S106 187 221 189.666C221 190 116 200 106 182c-8-14 39-41.667 39-41.667z"/>
+                <path id="smallcloudshadow1" class="st5" d="M70 306c-7-2-30-23-21-37s57-24 62-17-15 30-11 37 19 11 25 11 11-7 17-6 12 8 6 12c-2 2-17.695-3.91-34-4-19.722-.11-40.168 5.095-44 4z"/>
+                <path id="smallcloud1" class="st6" d="M49 269c-1.802 11.713 32.242 43.31 63 28 0 0-11-2-12-8s25-34 11-38c-40-8-61 13-62 18zM133 296.5s-5 6.5 15 9.5c1 0 5-7-1.5-10.5s-13.5 1-13.5 1z"/>
+                <path id="smallcloudshadow2" class="st5" d="M460 285c1-12-20-36-37-32s-18 44-37 42-6-38-13-37-19 31-17 35c4 10 103 4 104-8z"/>
+                <path id="smallcloud2" class="st6" d="M363.5 269.5s2.5 22.5 15 22C374 288 380 258 373 258s-9.5 11.5-9.5 11.5zM413.5 260s-9.5 18-3.5 26c8 10 46.5 2.5 46.5 2.5S471 278 446 260s-32.5 0-32.5 0z"/>
+                <path class="st15" d="M24 362h458s-82 91-227 91-231-91-231-91z" id="groundplane"/>
+                <g id="Layer_6">
+                    <path id="water" class="st28" d="M69 363h198s-43 7-75 9c-22 6 137 3 138 8s-65 2-60 6c19 10 143 16 142 20-40.454 7.395-167 19-207 8-9-4 3.965-6.897-1-11S43 386 43 386s-6-5 65-10c29-3 18-3-14-5-15 0-52 0-54-2s29-6 29-6z"/>
+                    <path id="waterreflection" class="st29" d="M118.333 375l157.333 13.333C359 403 461 401 388 409l-280-33 10.333-1zM121.333 372.333l199.667 10-41.333.667-155.167-9.25z"/>
+                    <path id="plateau" class="st22" d="M165 363s-14-21-15-37c-2-129 168-197 198-194 29 1 27 41 27 41s-25-3-26 31c-3 54 20 160 20 160l-204-1z"/>
+                    <path id="plateaudark" class="st25" d="M165 363s-16-26-2-56c2-11 3-35 3-35 6.622-11.515 17.062-18.18 25-27-1 8 3 70 3 70l9 22-6-21 4-1 5-22 20-36v-17l14-10s-1-14 2-19c5.9-7.084 8-21 8-21l8-7c-1.433-.172-8.508 14.698-6 28-1 14 2 17 2 17l-1 49 5 36-1-86c4.152.1 11.48-.798 11 0 12-1 26 40 39 40-3 12-2 24-2 24l10-20 3-20-12-12s4-21 0-35c6-11 14-15 14-15l5-44 4 22s21-17 29-11 14 17 14 17-16 6-20 18c-12 44 22 173 22 173l-206-1h-3z"/>
+                    <path id="bgplateauextradark" class="st27" d="M191 263.667L189 277l2 68-6 14v4.333l20.667.334L204 342l-10-27zM240 230l2 84-5-37-11-37zM305 291l-5.667 67-.333-72 8-19zM280 296l1 17 14 46-28 4 1-38 10-34zM253 277l5 36 1 48-26.333 2.667L246 330zM325 145l4 22s-2 61-2 60-2-24-2-24l-5-14 5-44z"/>
+                    <path id="house1" class="st12" d="M339 126l23 2-3 8h-21z"/>
+                    <path id="house2" class="st11" d="M332 137c-1-1-2-10-2-10l4-33 4 32h1l-1 10-6 1z"/>
+                    <path id="houseroof" class="st24" d="M338 126l26 3-8-21-22-15-6 35 2.063-.312L330 127l4-33z"/>
+                    <path id="chimney1" class="st9" d="M350.25 104.25L350 95l2-1 3 3-2 6-.375 2.875-2.375-1.625"/>
+                    <path id="chimney2" class="st8" d="M300.5 116l-4.5 23 4-13 3-3 1-4-3.5-3"/>
+                    <path id="chimneysmoke" class="st7" d="M352 98c.614.344 5.137-4.132 4-7-.865-2.18-3.84-1.547-5-4-.79-1.668-.16-3.542 1-7 1.196-3.564 2.105-4.098 2-6-.135-2.444-1.79-5.128-3-5-2.14.226-5.28 9.496-2 16 1.51 2.994 3.888 4.423 4 8 .09 2.9-1.384 4.785-1 5z"/>
+                    <path id="windows" class="st13" d="M333 114l-1 10 3-1-1-9zM345 132l-1-5 4 1-1 4h-2"/>
+                    <path id="treetrunks" class="st14" d="M433 307l2 15-6 25 11-10-3-15v-16zM148 272l2 15 4 11 2-8.667-5-7.333zM171 219l-3 21v18l7-13-3-8v-19zM182 222v12l3-4.667z"/>
+                    <path id="bgtrees" class="st16" d="M154.333 294.333L144 236l7 17 4-20 11 31-11.667 30.333M175 228l7-89 6 53 7-18 3 10 10-28 10 51-23 11.333zM298 137l9-62 3 47 2-18 5 35.667-7.333 1.333zM384 343l16-47 2 41 5-11 5 24h-31z"/>
+                    <path id="bigtree" class="st15" d="M412 327c15 5 48-12 48-12l-8-40-22-35-6-41-3 31 9 49-18 48z"/>
+                    <path id="logouter" class="st18" d="M376 340l21-5 19 5 7-20-10-24 14 23-2 20 5 1 33-21-6 20-11 5-14 12 20-11 1 9 3 2 2 7-35 3-21-4h-23z"/>
+                    <path id="loginner" class="st17" d="M462 321.5V352l-7-1 5 6-2 6-27-5v-11z"/>
+                    <path id="rockssmall" class="st19" d="M228 191v-16l8-11 6 3 4 13zM247 174l6-12 2 2 5 1z"/>
+                    <path id="rocktopshadow" class="st8" d="M305 110l2 5 14 6 2 7-33 21-2-45"/>
+                    <path id="rocktoplight" class="st19" d="M269 163l-2-20 7-7 14-32 12 9-10 34 13-29 12-1 8 11v12z"/>
+                    <path id="bgplateau" class="st20" d="M64 333s1-12 5-17 16-14 25-16 12-3 15 0-3 26 7 34c3 2 14-4 14-4l50 25-5.667 7.333H47.667S68 360 73 353c10-24-9-20-9-20z"/>
+                    <path id="bgplateaudark" class="st26" d="M64 333l20-15 4 12 4-10 6-6v12l5 3-13 21-10-3-8 7s6-13 3-17c-3.842-5.122-11-4-11-4z"/>
+                    <path id="bgplateautrees" class="st16" d="M104 363l4-17 6 13 9-41 7 36 6-18 8 28z"/>
+                    <path id="bgrocklight" class="st23" d="M147 344l6 4 2 6-11 4-8-2z"/>
+                    <path id="bgrockmid" class="st8" d="M141 362.5l-5-6.5 11-12 15 2 8 15-29 1.5"/>
+                    <path id="bgrockshadow" class="st21" d="M144 358l11-4 9 2 1 7-17.333-1z"/>
+                    <path id="toptreetrunk" class="st14" d="M379 119l-5 15-8 10 3 8 7-15 3-14z"/>
+                    <path id="lefttree"class="st15" d="M140 280l17-10-6-17-11-57z"/>
+                    <path id="trees" class="st15" d="M370 117c12 4 14 34 14 34l16-98s-21 59-30 64zM162 236l19-26-7-16-2-76-6 59z"/>
+                    <path id="fgtrees" class="st16" d="M164 363l10-59 4 59zM242 363l10-46 4 16 13-79 7 107 18-63 11 65z"/>
+                    <path id="fgrock2light" class="st21" d="M237 359l3 11 11 2 47-13 16-30-6-16-10 5h-5l-53 38z"/>
+                    <path id="fgrocksextradark" class="st30" d="M349 301l-18 41 23-31 9-2zM251 372l10-12 21-6-11-1 32-21-.5 17 2.5 14z"/>
+                    <path id="fgrocksshadow2" class="st30" d="M271 353l-10 2-8-2 8 7 21-6z"/>
+                    <path id="fgrock1light" class="st31" d="M292 345l31-110 18-10 8 76-18 41 23-31 28 19 2 35-72 3-14-3z"/>
+                    <path id="fgrock1shadow" class="st8" d="M341 225l20 48 18 35 16 16-8 38-3 3-30-54 9-2-14-8z"/>
+                    <path id="fgrock1shadow2" class="st8" d="M292 345l20 23-14-3z"/>
+            </svg>
+
+       <section class="about-services">
+                <div class="contenedor">
+                    <h2 class="titulo">Lineas de acción</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="img/T.svg" alt="">
+                            <h3> Transformación Cultural</h3>
+                            <p>Creando espacios culturales y recreativos a través de la lúdica,
+                                las artes escénicas y la dinámica en grupo, como estrategia de
+                                concientización y educación informal, que a su vez involucra a
+                                cada uno de los participantes en las problemáticas y soluciones
+                                medio ambientales generales o especificas de cada población.
+                                Presentando diferentes propuestas en la modalidad de Clown, Eco-magia,
+                                Eco-arte, prevención integral. Enmarcado en la propuesta conceptual y
+                                metodológica ECOCULTURA</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/undraw_learning_2q1h.svg" alt="">
+                            <h3>Educación Ambiental</h3>
+                            <p>A través de charlas y capacitaciones magistrales de educación informal
+                                especializadas y participativas, en las cuales se construyen y desarrollan
+                                conceptos e ideas y se comparten conocimientos específicos, tales como:
+                                <br>-Disposición adecuada de residuos.
+                                <br>-Caracterización de residuos.
+                                <br>-Ahorro de agua.
+                                <br>-Ahorro de energía.
+                                <br>-El suelo como sustentador de la vida.
+                                <br>-Difusión de plan de emergencia y contingencia ambiental.
+                                <br>-Diversidad Biológica.
+                                <br>-Cambio Climático.
+                                <br>-Consumo responsable.
+                            </p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/undraw_agree_8pb9.svg" alt="">
+                            <h3>Asesorías</h3>
+                            <p>Somos un grupo comprometido con la gestión ambiental
+                                <b>A.S.A.I. SAS ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES</b>
+                                lo invita a formar parte de los diferentes procesos, brindando
+                                asesorías y talleres profesionales, acompañamiento de proyectos y
+                                soluciones de alto impacto en:
+                                <br>-<b>PRAES                    </b>( Proyectos Ambientales Escolares).
+                                <br>-<b>PROCEDAS</b>            ( Proyecto ciudadano y comunitario de educación ambiental).
+                                <br>-Programas de uso eficiente y ahorro de agua y energía.
+                                <br>-Sistemas municipales de reciclaje. 
+                                <br>-<b>PGIR</b>                        ( Planes de gestión integral de residuos solidos).
+                            </p>
+
+                    </div>
+                </div>
+            </section>
+            <section class="about-services">
+                <div class="contenedor">
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="img/undraw_new_ideas_jdea.svg" alt="">
+                            <h3> Ahorro del consumo electrico</h3>
+                            <p>Con el fin de lograr un  ahorro de consumo de energía proveniente de hidroeléctricas
+                                y de combustibles fósiles que generan gases de efecto invernadero,
+                                <b>A.S.A.I. SAS ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES</b> ,
+                                brinda a sus clientes diversas alternativas en el ahorro de energía y en
+                                la adopción de energías limpias. <br>
+                                <b>A.S.A.I SAS. ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES SAS</b>,
+                                ofrece una amplia gama de iluminación LED ajustada a las necesidades
+                                específicas de nuestros clientes, lo cual permitirá que la iluminación sea
+                                eficiente y se obtendrá un ahorro significativo en el consumo. <br>La iluminación
+                                LED es una alternativa de ahorro energético y económico “menos costo, mas
+                                iluminación” brindando múltiples beneficios como:
+                                <br>- <b>Ahorro</b> entre el <b> 50% y el 60%</b> Aprox. De su energía eléctrica en iluminación.
+                                <br>-No necesita mantenimiento.
+                                <br>-Fácil instalación.
+                                <br>-Uso multi-voltaje <b>110-240</b> voltios AC.
+                                <br>-Tiempo de vida útil de <b>30.000 a 50.000</b>  horas aprox.
+                                <br>-Mas iluminación por menos dinero <b>(6.000K)</b> Luz día.
+                                <br>-Garantía de  1 año.
+                                <br>-No se calienta.
+                                <br>-<b>Cumple con las normativas</b> de iluminación reglamentada en Colombia.
+                                <br>-<b><big>Para ver los productos de esta linea pulse  <a href="productos.pdf">acá</a></big></b>
+                            </p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/undraw_wind_turbine_x2k4.svg" alt="">
+                            <h3>Energías limpias</h3>
+                            <p>Las energías renovables llegaron para quedarse, teniendo en cuenta el desabastecimiento
+                                energético por el que atraviesa nuestro planeta,
+                                <B>A.S.A.I. SAS ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES</B>
+                                brinda a sus clientes una amplia gama de energías limpias, paneles
+                                solares y aerogeneradores, hibrida eólica/ fotovoltaica.  En donde
+                                apoyados en <b>la ley 1715 de 2014</b> ,  se busca que el cliente acceda a
+                                los beneficios económicos y tributarios a través de la reducción de
+                                costos en consumo bajo los incentivos que presenta dicha ley.
+                                <br>-<b><big>Para ver los productos de esta linea pulse  <a href="productos.pdf">acá</a></big></b>
+
+
+                            </p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/undraw_heartbroken_cble.svg" alt="">
+                            <h3>Agricultura orgánica, sostenible y urbana. </h3>
+                            <p>
+                                Se conoce como una práctica para producir alimento
+                                saludable desde pequeños espacios urbanos habilitados
+                                y aptos para la producción de alimento orgánico.
+                                sus características principales están relacionadas
+                                tanto con calidad de los productos, como con la
+                                mejora de la calidad de vida, la educación ambiental,
+                                las relaciones sociales y la regeneración urbana”.
+                                podemos producir nuestros alimentos de una forma orgánica,
+                                limpia y a menores costos ya que no incurren en gastos de
+                                transporte, mano de obra e insumos como fertilizantes de
+                                síntesis química ni pesticida. “Este tipo de producción
+                                puede beneficiar a las necesidades alimentarias de una familia,
+                                o comunidad ya que aumenta la nutrición y permite a las mismas
+                                gastar una mayor parte de sus ingresos en otras necesidades,
+                                como educación, salud. Así mismo ayudar a la estabilidad alimentaria de nuestro país.
+                                <br><b>Dentro de los programas establecidos ASAI SAS ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES SAS </B>
+                            </p>
+
+                        </div>
+                    </div>
+            </section>
+            <section class="about-services">
+                <div class="contenedor">
+
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="img/undraw_urban_design_kpu8.svg" alt="">
+                            <h3> Jardines verticales</h3>
+                            <p>Los jardines verticales son una excelente
+                                forma de aprovechar el espacio de una manera eficiente,
+                                ya que no necesitan de amplios espacios y brindan diversos
+                                servicios ambientales como la absorción de partículas contaminantes,
+                                regulan la temperatura, dependiendo el tipo de planta brindan alimento
+                                y son muy estéticos.</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/undraw_electric_car_b7hl.svg" alt="">
+                            <h3>Movilidad sostenible </h3>
+                            <p>
+                               <b> ASAI SAS ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES SAS</b>
+                                , Presenta su línea de movilidad sostenible, brindando soluciones
+                                de movilidad eléctrica a través de la venta de vehículos eléctricos,
+                                mantenimiento y arreglo de todo tipo de vehículos eléctricos,<b>lo cual
+                                se alinea con la consecución de los objetivos propuestos en el
+                                acuerdo de París</b>  y permite a los usuarios de los vehículos eléctricos en
+                                Colombia  acceder a <b>beneficios económicos y tributarios</b> que nos otorga
+                                <B>la ley 1964 del 11 de julio 2019</B>  en cuanto a movilidad sostenible.
+                            </p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/undraw_business_shop_qw5t.svg" alt="">
+                            <h3>Productos ecológicos. </h3>
+                            <p> <B>ASAI SAS ASESORIAS Y SOLUCIONES AMBIENTALES INTEGRALES SAS</B>.
+                                Comprometida con la protección del medio ambiente, los ecosistemas
+                                y la población, presenta su línea de soluciones con productos
+                                <b>BIODEGRADABLES, ecológicos, sostenibles y de calidad</b>. <br>
+                                Dirigido a suplir su necesidad general o especifica según lo
+                                requiera el mercado, en donde encontrara diferentes alternativas
+                                para frenar el uso desmesurado de plástico el cual es uno de los
+                                factores mas grandes del problema ambiental por el que atravesamos actualmente. <br>
+                                Ahora bien, cabe anotar que la solución <B> <EM>“no es cambiar plástico por bioplastico, el cambio es de mentalidad”</EM> </B> .
+                                <br>-<b><big>Para ver los productos de esta linea pulse  <a href="productos.pdf#zoom=100">acá</a></big></b>
+
+                            </p>
+
+                        </div>
+                    </div>
+            </section>
+            <section class="clientes contenedor">
+                <h2 class="titulo"> Lo que dicen nuestros clientes</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/IMG_20170917_191503.jpg" alt="">
+                        <div class="contenido-texto-card">
+                            <h4>MrGTS</h4>
+                            <p>lasdf,ld,ggcf, fk bfkb f    v</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/face2.jpg" alt="">
+                        <div class="contenido-texto-card">
+                            <h4>Other MrGTS</h4>
+                            <p>,sc,flmsdkdmfkmdfkgmdfkmkdfkmfmgmfmfmkgmkfmf</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <h1 align="center"  color="#ffff">Contactanos</h1>
+        <form action="https://getform.io/f/bafe70d0-950e-4bf3-9ed1-13593f632f61" method="POST" class="cf">
+            <div class="half left cf">
+                <input type="text" id="input-name" placeholder=" Nombre">
+                <input type="email" id="input-email" placeholder="Email">
+                <input type="text" id="input-subject" placeholder="Asunto">
+            </div>
+            <div class="half right cf">
+                <textarea name="message" type="text" id="input-message" placeholder="Mensaje"></textarea>
+            </div>
+            <input type="submit" value="Enviar" id="input-submit">
+        </form>
+
+        </section>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono celular</h4>
+                <p>3106295936 </p>
+            </div>
+
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>asaisoluciones77@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Direccion</h4>
+                <p> Calle 9 A No. 1B- 88 INT. 5 Casa 29 <br> Mosquera, Colombia </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; ASAI </h2>
+    </footer>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js'></script><script  src="./script.js"></script>
+</body>
+
+</html>
