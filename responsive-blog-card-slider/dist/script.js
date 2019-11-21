@@ -5,6 +5,7 @@ var swiper = new Swiper('.blog-slider', {
       mousewheel: {
         invert: false,
       },
+      // autoHeight
       pagination: {
         el: '.blog-slider__pagination',
         clickable: true,
