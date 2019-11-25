@@ -4,12 +4,11 @@ html, body {
 }
 
 * {
-    /*outline: 1px dotted yellow;*/
     box-sizing: border-box;
 }
 
 .stage {
-    --c-bg: hsl(262,39%,20%);
+    --c-bg: hsl(60, 100%, 99%);
 
     align-items: center;
     background-color: var(--c-bg);
@@ -26,8 +25,8 @@ html, body {
     width: 400px;
 }
 .scene::before {
-    --c-bg: hsl(262,39%,22%);
-    --c-glow: hsl(262,39%,20%);
+    --c-bg: hsl(338, 80%, 96%);
+    --c-glow: hsl(0, 0%, 100%);
     --size: 600px;
 
     animation: scene-anim .6s infinite steps(6);
@@ -225,7 +224,7 @@ html, body {
     width: 120px;
 }
 .lantern-body::after {
-    --c: hsl(321,41%,42%);
+    --c: hsl(299, 67%, 60%);
     background-color: var(--c);
     border-radius: 4px;
     box-shadow: -5px 161px 0 1px var(--c), 5px 161px 0 1px var(--c);
