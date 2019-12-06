@@ -154,7 +154,7 @@ html, body {
     z-index: 1;
 }
 .lantern-handle {
-    border: 6px solid hsl(257,41%,27%);
+    border: 6px solid hsl(0°,0%,75%);
     border-radius: 50px;
     height: 105px;
     width: 200px;
@@ -224,7 +224,7 @@ html, body {
     width: 120px;
 }
 .lantern-body::after {
-    --c: hsl(299, 67%, 60%);
+    --c: hsl(0°,0%,75%);
     background-color: var(--c);
     border-radius: 4px;
     box-shadow: -5px 161px 0 1px var(--c), 5px 161px 0 1px var(--c);
