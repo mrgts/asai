@@ -1,0 +1,87 @@
+.background {
+  background: linear-gradient(134.98deg, #050444 0%, #26319E 31.99%,#451A75 54.68%, #2D0D60 77.04%, #17144A 100%);
+}
+
+.welcome_title {
+  height: 300px;
+  width: 530px;
+  font-size: 85px;
+  font-weight: 300;
+  letter-spacing: -3.27px;
+}
+
+.welcome_subtitle {
+  height: 60px;
+  width: 420px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section_title {
+  font-size: 52px;
+  letter-spacing: 1px;
+  line-height: 58px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section_subtitle {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.step_title {
+  font-size: 52px;
+  letter-spacing: 1px;
+  line-height: 58px;
+  font-weight: bold;
+}
+
+.step_subtitle {
+  height: 60px;
+  width: 387px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.api_card {
+  width: 360px;
+}
+
+.api_card_center {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.api-cat {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.service_card {
+  width: 356px;
+  border: 2px solid #6948D9;
+}
+
+.service_card_img {
+  height: 228px;
+  width: 220px !important;
+  margin-top: 53px;
+  margin-bottom: 66px;
+}
+
+
+.input_form_join {
+  height: 40px;
+  width: 294px;
+  border: 1px solid #6948D9;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 18px 0 rgba(144,164,183,0.22);
+}
+
+.form-control:focus {
+  border-color: #451A75;
+  box-shadow: 0 0 0 0.2rem #451A75
+}
