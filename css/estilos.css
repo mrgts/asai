@@ -43,7 +43,7 @@ nav{
 }
 
 nav > a{
-    color:#fff;
+    color:#c551d4;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
@@ -360,6 +360,7 @@ footer{
 
     nav > a{
         margin-right: 5px;
+
     }
 
     .textos-header h1{
